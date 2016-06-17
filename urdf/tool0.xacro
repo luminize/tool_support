@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+
+<robot name="tool0" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:include filename="$(find tool_support)/urdf/tool0_macro.xacro"/>
+	<xacro:tool0 prefix=""/>
+</robot>
